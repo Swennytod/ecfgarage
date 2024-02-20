@@ -1,0 +1,176 @@
+/* Palette de couleur 
+
+rougePrimary : #D92332
+rougeSecondy : #D94350
+rose : #D9777F
+black : #262526
+white : #F2F2F2
+
+police d'écriture
+
+Rajdhani
+Barlow
+*/
+h1, h2, h3, h4, h5 {
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 32px;
+}
+p {
+  font-family: 'Barlow', sans-serif; 
+  font-size: 22px;                                              
+}
+.card-img-top {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80px;
+}
+.card {
+  border: none !important;
+  text-align: center;
+}
+
+.background-section {
+    background-image: url('garage.jpeg'); /* Remplacez par le chemin vers votre image */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 60vh; /* 100% de la hauteur de l'écran */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .overlay {
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 20px;
+      text-align: center;
+      color: white;
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      display: flex;
+      flex-direction: column; 
+      align-items: center;
+      justify-content: center;
+    }
+    .overlay h1 {
+        margin: 0;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 46px;
+        align-items: center;
+        text-align: center;
+      }
+
+    .overlay h2, h3 {
+        font-style: normal;
+        font-weight: 500;
+        line-height: 38px;
+      }
+      
+      .overlay-vente {
+        background-color: rgba(0, 0, 0, 0.60);
+        padding: 20px;
+        text-align: center;
+        color: white;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+        display: flex;
+        flex-direction: column; 
+        align-items: center;
+        justify-content: center;
+      }
+      .background-vente {
+        background-image: url('voiturenoir.jpeg'); /* Remplacez par le chemin vers votre image */
+        background-size: cover;
+        background-position: center;
+        height: 50vh; /* 100% de la hauteur de l'écran */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .btn-vente {
+        background-color: #D92332;
+        border-radius: 22px;
+        border: none;
+        color: white;
+        font-family: 'Barlow', sans-serif;
+        font-weight: bold;
+        font-size: 26px;
+        height: 60px;
+        width: 180px;
+      }
+      .rating {
+        font-size: 24px;
+        color: #FFD700; /* Couleur de l'or */
+
+        /*formulaire*/
+    }
+    .custom-form-content {
+      background-image: url('garage.jpeg');
+      background-size: cover;
+      background-position: center;
+      height: 100vh;
+      justify-content: center;
+      align-items: center;
+      padding: 40px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .btnform{
+    border-radius: 22px;
+    color: white; 
+    background-color: #D92332;
+    border: none;
+    font-size: 22px;
+    font-weight: 600;
+    width: 150px;
+    height: 50px;
+  }
+
+  .custom-form-group {
+      margin-bottom: 20px;
+  }
+  
+  input, textarea {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+  }
+  
+  /* Nav bar*/
+  .navbar {
+    background-color: black #262526;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .navbar-nav a:focus-within {
+    color: #fff;
+  }
+  
+  .btn-dark {
+    border-radius: 5px;
+    border-color: white;
+    background-color: #262526;
+    height: 40px;
+    width: 120px;
+    margin: auto;
+    color: white;
+  }
+
+
+  
+
+
+
+
+
+
